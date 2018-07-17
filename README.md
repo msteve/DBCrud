@@ -35,7 +35,7 @@ There are case where you would want to evaluate some statements at the Sql Serve
 then here in the where clause you can pass it as,
 where.put(DbHandler.SQL_KEYWORD,"registration_date=getdate()");
 
-And for if you feel like you already have a full SQl statement,
+And if you feel like you already have a full SQl statement,
 then you can use
 ArrayList<HashMap<String, String>> result=selectQuery(sql,whereParams);
 
